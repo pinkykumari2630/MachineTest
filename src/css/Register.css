@@ -1,0 +1,56 @@
+.register-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    gap: 10px;
+}
+
+button {
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.facebook-btn {
+    background-color: #3b5998;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.google-btn {
+    background-color: #db4437;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* 2nd design */
+.gradient-custom-3 {
+    /* fallback for old browsers */
+    background: #84fab0;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5));
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5))
+    }
+    .gradient-custom-4 {
+    /* fallback for old browsers */
+    background: #84fab0;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1));
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1))
+    }
